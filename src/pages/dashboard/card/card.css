@@ -1,0 +1,43 @@
+.cards {
+  height: 4rem;
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px 0 rgb(37 37 37 / 10%);
+}
+.cards:hover{
+    box-shadow: 0 1px 4px 0 rgb(37 37 37 / 60%);
+    cursor: pointer;
+}
+.card {
+  display: flex;
+  align-items: center;
+}
+.card-img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.title-content {
+  font-size: 1rem;
+  padding-left: .5rem;
+}
+.card-title {
+  font-size: 1rem;
+}
+.info {
+  display: flex;
+  align-items: flex-end;
+}
+.num1 {
+  font-weight: 700;
+  color: blue;
+}
+.tagname1 {
+  font-size: 0.7rem;
+}
+.num2 {
+  font-size: 0.7rem;
+  font-weight: bold;
+}

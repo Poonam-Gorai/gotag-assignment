@@ -1,0 +1,8 @@
+<svg width="16" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.11 1.216H2.888a.8.8 0 0 0-.8.8v7.457H8v1.431H1.2v.676a.8.8 0 0 0 .8.8h5.999v1.2H2a2 2 0 0 1-2-2V9.704h.888V2.016a2 2 0 0 1 2-2H13.11a2 2 0 0 1 2 2v.906h-1.2v-.906a.8.8 0 0 0-.8-.8z" fill="#0059FB"/>
+    <mask id="a" fill="#fff">
+        <rect x="9.777" y="4.859" width="6.222" height="9.325" rx="1"/>
+    </mask>
+    <rect x="9.777" y="4.859" width="6.222" height="9.325" rx="1" stroke="#0059FB" stroke-width="2.4" mask="url(#a)"/>
+    <ellipse cx="12.888" cy="11.925" rx=".519" ry=".565" fill="#0059FB"/>
+</svg>

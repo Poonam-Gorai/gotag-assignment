@@ -1,0 +1,15 @@
+<svg width="16" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="a" fill="#fff">
+        <rect x=".842" y="4.164" width="4.211" height="12.629" rx="1"/>
+    </mask>
+    <rect x=".842" y="4.164" width="4.211" height="12.629" rx="1" stroke="#0059FB" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" mask="url(#a)"/>
+    <mask id="b" fill="#fff">
+        <rect x="5.895" y=".279" width="4.211" height="16.515" rx="1"/>
+    </mask>
+    <rect x="5.895" y=".279" width="4.211" height="16.515" rx="1" stroke="#0059FB" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" mask="url(#b)"/>
+    <mask id="c" fill="#fff">
+        <rect x="10.945" y="9.994" width="4.211" height="6.8" rx="1"/>
+    </mask>
+    <rect x="10.945" y="9.994" width="4.211" height="6.8" rx="1" stroke="#0059FB" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" mask="url(#c)"/>
+    <path stroke="#0059FB" stroke-width="1.2" d="M0 16.507h16"/>
+</svg>

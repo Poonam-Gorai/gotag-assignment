@@ -1,0 +1,94 @@
+.pending-cards{
+    display: flex;
+    padding: 1rem 0;
+    border-bottom: #e8e8e8 solid 1px;
+}
+.pending-card1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.pending-card-img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+.ename-content{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.card-eid{
+    color: #0059fb;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.card-ename{
+    color: #404b5b;
+    font-size: .7rem;
+    font-weight: 700;
+}
+.edate-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-edate{
+    color: #404b5b;
+    font-size: .7rem;
+}
+.card-ecomment{
+    color: #404b5b;
+    font-size: .7rem;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.reject{
+    padding: .5rem;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.05);
+    border: none;
+    outline: none;
+}
+.approve{
+    padding: .5rem;
+    color: #0059fb;
+    background-color: rgba(0, 89, 251, 0.05);
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+}
+.reject:hover,.approve:hover{
+    cursor: pointer;
+}
+.right-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
