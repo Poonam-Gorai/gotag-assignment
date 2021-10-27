@@ -1,94 +1,78 @@
-.pending-cards{
-    display: flex;
-    padding: 1rem 0;
-    border-bottom: #e8e8e8 solid 1px;
+.pending-cards {
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: #e8e8e8 solid 1px;
 }
-.pending-card1{
-    display: flex;
-    align-items: center;
-    width: 50%;
+.pending-card1 {
+  display: flex;
+  align-items: center;
+  width: 50%;
 }
-.pending-card-img{
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
+.pending-card-img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
 }
-.ename-content{
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
+.ename-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
 }
-.card-eid{
-    color: #0059fb;
-    font-size: .8rem;
-    font-weight: 600;
+.card-eid {
+  color: #0059fb;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
-.card-ename{
-    color: #404b5b;
-    font-size: .7rem;
-    font-weight: 700;
+.card-ename {
+  color: #404b5b;
+  font-size: 0.7rem;
+  font-weight: 700;
 }
-.edate-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.edate-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.card-edate{
-    color: #404b5b;
-    font-size: .7rem;
+.card-edate {
+  color: #404b5b;
+  font-size: 0.7rem;
 }
-.card-ecomment{
-    color: #404b5b;
-    font-size: .7rem;
+.card-ecomment {
+  color: #404b5b;
+  font-size: 0.7rem;
 }
-.btns{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.reject{
-    padding: .5rem;
-    color: red;
-    background-color: rgba(255, 0, 0, 0.05);
-    border: none;
-    outline: none;
+.reject {
+  padding: 0.5rem;
+  color: red;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  background-color: white;
 }
-.approve{
-    padding: .5rem;
-    color: #0059fb;
-    background-color: rgba(0, 89, 251, 0.05);
-    border: none;
-    outline: none;
-    margin-left: 1rem;
+.approve {
+  padding: 0.5rem;
+  color: #0059fb;
+  border: none;
+  outline: none;
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  background-color: white;
 }
-.reject:hover,.approve:hover{
-    cursor: pointer;
+.reject:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.05);
 }
-.right-cont{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.approve:hover {
+  cursor: pointer;
+  background-color: rgba(0, 89, 251, 0.05);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.right-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   box-shadow: 0 1px 4px 0 rgb(37 37 37 / 10%);
+  transition: 0.3s all ease-in-out;
 }
 .cards:hover{
     box-shadow: 0 1px 4px 0 rgb(37 37 37 / 60%);
@@ -25,6 +26,7 @@
 }
 .card-title {
   font-size: 1rem;
+  font-weight: 600;
 }
 .info {
   display: flex;

@@ -32,22 +32,24 @@ h4 {
   grid-column: 1/3;
   box-shadow: 0 1px 4px 0 rgb(37 37 37 / 10%);
   padding: 1rem 2rem;
+  transition: 0.3s all ease-in-out;
 }
 .item1:hover,
 .item3:hover,
 .item2:hover {
   box-shadow: 0 1px 4px 0 rgb(37 37 37 / 50%);
-  cursor: pointer;
 }
 .item3 {
   grid-row: 2/4;
   grid-column: 3/4;
   box-shadow: 0 1px 4px 0 rgb(37 37 37 / 10%);
   padding: 1rem 2rem;
+  transition: 0.3s all ease-in-out;
 }
 .item2 {
   box-shadow: 0 1px 4px 0 rgb(37 37 37 / 10%);
   padding: 1rem;
+  transition: 0.3s all ease-in-out;
 }
 .content-header {
   display: flex;
@@ -64,6 +66,7 @@ h4 {
   cursor: pointer;
   padding-left: 1rem;
   font-weight: 700;
+  transition: 0.3s all ease-in-out;
 }
 .greaterThan:hover,.arrow:hover {
   transform: translateX(5px);
@@ -142,7 +145,7 @@ h3 {
 }
 .item-scroll {
   overflow-y: scroll;
-  height: 100%;
+  height: calc(100% - 2rem);
 }
 .item-scroll::-webkit-scrollbar {
   display: none;

@@ -11,7 +11,8 @@ function Navbar() {
   const menulist = MenuList.map(({ url, title, test, id, image }, index) => {
     return (
       <li className ="nav-li"key={index} id={location.pathname === url ? "active" : " "}>
-        <Link to={`${url}?name=${test}&age=10`}>
+        <Link to={url}>
+        {/* <Link to={`${url}?name=${test}&age=10`}> */}
           <img src={image} alt="alt-img"/>
           <span className="title">{title}</span>
         </Link>

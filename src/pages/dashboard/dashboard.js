@@ -80,11 +80,12 @@ function Dashboard() {
           </div>
         </div>
         <div className="item3">
-          <div className="item-scroll">
+          
             <div className="upcomingHolidays">
               <h4>Upcoming Holidays </h4>
               <h4 className="greaterThan">&gt;</h4>
             </div>
+            <div className="item-scroll">
             <div className="holidayCard">
               <div className="card_img">
                 <div className="img_date">25</div>

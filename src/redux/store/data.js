@@ -4,6 +4,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
     {
@@ -11,6 +14,9 @@ const Employee =[
         ename : "Garrett Winters",
         email : "garrettwinters@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -18,6 +24,9 @@ const Employee =[
         ename : "Ashton Cox",
         email : "ashtoncox@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -25,6 +34,9 @@ const Employee =[
         ename : "Ruby Pen",
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -32,6 +44,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -39,6 +54,9 @@ const Employee =[
         ename : "Emma Watson",
         email : "Emma@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -46,6 +64,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -53,6 +74,9 @@ const Employee =[
         ename : "Theon Grey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Interaction Designer"
     },
     {
@@ -60,6 +84,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -67,6 +94,9 @@ const Employee =[
         ename : "Theon Grey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -74,6 +104,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -81,6 +114,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -88,6 +124,9 @@ const Employee =[
         ename : "Theon Grey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -95,6 +134,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
     {
@@ -102,6 +144,9 @@ const Employee =[
         ename : "Emma Watson",
         email : "Emma@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -109,6 +154,9 @@ const Employee =[
         ename : "Ruby Pen",
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -116,6 +164,9 @@ const Employee =[
         ename : "Tania Rai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Interaction Designer"
     },
     {
@@ -123,6 +174,9 @@ const Employee =[
         ename : "Rebecca James",
         email : "Rebeccajames@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
     {
@@ -130,6 +184,9 @@ const Employee =[
         ename : "Thomas Green",
         email : "Thomasgreen@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -137,6 +194,9 @@ const Employee =[
         ename : "Summer Simpson",
         email : "Summersimpsons@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
     {
@@ -144,6 +204,9 @@ const Employee =[
         ename : "James White",
         email : "James.w@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -151,6 +214,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -158,6 +224,9 @@ const Employee =[
         ename : "Tania Rai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
     {
@@ -165,6 +234,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
     {
@@ -172,6 +244,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Interaction Designer"
     },
     {
@@ -179,6 +254,9 @@ const Employee =[
         ename : "Theon Grey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -186,6 +264,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
     {
@@ -193,6 +274,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
     {
@@ -200,6 +284,9 @@ const Employee =[
         ename : "Theon Grey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -207,6 +294,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
     {
@@ -214,6 +304,9 @@ const Employee =[
         ename : "Emma Watson",
         email : "Emma@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -221,6 +314,9 @@ const Employee =[
         ename : "Ruby Pen",
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
     {
@@ -228,6 +324,9 @@ const Employee =[
         ename : "Tania Rai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -235,6 +334,9 @@ const Employee =[
         ename : "Rebecca James",
         email : "Rebeccajames@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
     {
@@ -242,6 +344,9 @@ const Employee =[
         ename : "Thomas Green",
         email : "Thomasgreen@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -249,6 +354,9 @@ const Employee =[
         ename : "Summer Simpson",
         email : "Summersimpsons@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
     {
@@ -256,6 +364,9 @@ const Employee =[
         ename : "James White",
         email : "James.w@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -263,6 +374,9 @@ const Employee =[
         ename : "Ariana Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
     {
@@ -270,6 +384,9 @@ const Employee =[
         ename : "Tania Rai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
     {
@@ -277,6 +394,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
     {
@@ -284,6 +404,9 @@ const Employee =[
         ename : "Bernardo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: " ",
+        image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
 
