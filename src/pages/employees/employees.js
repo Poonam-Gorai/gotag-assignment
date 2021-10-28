@@ -30,11 +30,28 @@ function Employees() {
       setOrder("ASC");
     }
   };
+  const sortingNum = (col) => {
+    //console.log("clicked");
+    if (order === "ASC") {
+      const sorted = [...emplist].sort((a, b) =>
+        a[col] - b[col]
+      );
+      setEmpList(sorted);
+      setOrder("DSC");
+    }
+    if (order === "DSC") {
+      const sorted = [...emplist].sort((a, b) =>
+      b[col] - a[col]
+      );
+      setEmpList(sorted);
+      setOrder("ASC");
+    }
+  };
 
   // pagination
   const [visible, setVisible] = useState(10);
   const showMoreItems = () => {
-    console.log("click")
+    console.log("click");
     setVisible((prevValue) => prevValue + 10);
   };
 
@@ -59,29 +76,28 @@ function Employees() {
         </div>
       </div>
       <div className="emp-table">
-      <TableScrollbar>
+        <table>
+          <thead>
+            <tr className="row-head">
+              <th onClick={() => sortingNum("id")}className="empid-head">EMP. ID</th>
+              <th onClick={() => sorting("ename")} className="empname-head">
+                NAME/EMAIL
+              </th>
+              <th onClick={() => sorting("role")} className="emprole-head">
+                ROLE
+              </th>
+              <th className="empmobile-head">MOBILE</th>
+              <th className="empjoin-head">JOIN DATE</th>
+              <th className="empmanager-head">MANAGER</th>
+            </tr>
+          </thead>
+        </table>
+        {/* <div className="emp-list"> */}
+        <TableScrollbar>
           <table>
-            <thead>
-              <tr className="row-head">
-                <th onClick={() => sorting("id")} className="empid-head">
-                  EMP. ID
-                </th>
-                <th onClick={() => sorting("ename")} className="empname-head">
-                  NAME/EMAIL
-                </th>
-                <th onClick={() => sorting("role")} className="emprole-head">
-                  ROLE
-                </th>
-                <th className="empmobile-head">MOBILE</th>
-                <th className="empjoin-head">JOIN DATE</th>
-                <th className="empmanager-head">MANAGER</th>
-              </tr>
-            </thead>
-            {/* <div className="emp-list"> */}
-            
             <tbody>
               {emplist
-              // eslint-disable-next-line
+                // eslint-disable-next-line
                 .filter((val) => {
                   if (searchTerm === "") {
                     return val;
@@ -124,9 +140,11 @@ function Employees() {
             {/* </div> */}
           </table>
           <div className="btn-See-more">
-            <button onClick={showMoreItems} className="btnSee">See more...</button>
+            <button onClick={showMoreItems} className="btnSee">
+              See more...
+            </button>
           </div>
-          </TableScrollbar>
+        </TableScrollbar>
       </div>
       <footer className="footer">
         <div className="footer_btn">

@@ -103,7 +103,7 @@ thead {
   align-items: center;
   border-bottom: solid 3px #f3f4f8;
   background-color: white;
-  margin-top: -0.1rem;
+  margin-top: -0.2rem;
   
 }
 
@@ -215,4 +215,7 @@ thead tr .empmanager-head {
 }
 .btnSee:hover{
     cursor: pointer;
+}
+.TableScrollbar{
+  height: calc(100% - 3rem) !important;
 }
