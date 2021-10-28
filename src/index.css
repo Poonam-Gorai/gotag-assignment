@@ -24,14 +24,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@media screen and (max-width : 1190px) {
+@media screen and (max-width : 1203px) {
   html{
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width : 988px) {
   html{
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 @media screen and (min-width : 2560px) {

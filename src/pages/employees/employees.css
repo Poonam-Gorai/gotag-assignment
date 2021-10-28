@@ -1,176 +1,218 @@
-.Breadcrums{
-    padding-bottom: 1rem;
-    border-bottom: solid 1px #e8e8e8;
+.Breadcrums {
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #e8e8e8;
 }
-.blue-Emp{
-    color: #0058fa;
-    font-size: .8rem;
+.blue-Emp {
+  color: #0058fa;
+  font-size: 0.8rem;
 }
-.allEmp{
-    color: #929292;
-    font-size: .8rem;
+.allEmp {
+  color: #929292;
+  font-size: 0.8rem;
 }
-.empCount{
-    
-    font-size: 1.5rem;
-    color: #404b5b;
+.empCount {
+  font-size: 1.5rem;
+  color: #404b5b;
 }
-.emp-table{
-    background-color: white;
-    height: calc(100% - 12.5rem);
+.emp-table {
+  background-color: white;
+  height: calc(100% - 12.5rem);
 }
-.search_emp_wrap{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 1rem 0;
-    justify-content: space-between;
+.search_emp_wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  justify-content: space-between;
 }
-.search-icon{
-    height: 1.5rem;
-    width: 1.5rem;
-    margin-right: .5rem;
+.search-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.5rem;
 }
-.search-box{
-    display: flex;
-    align-items: center;
-    padding: .5rem;
-    background-color: white;
-    width: 17rem;
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: white;
+  width: 19rem;
 }
-.searchfield{
+.searchfield {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 0.8rem;
+}
+.footer {
+  background-color: white;
+  width: 100%;
+  height: 3.5rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.emp_article {
+  padding: 1rem 2rem 0;
+}
+.footer_btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 2rem;
+  height: 100%;
+}
+.cancle {
+  background-color: #666666;
+  font-size: 0.7rem;
+  color: #ffffff;
+  padding: 0.6rem;
+  border: none;
+}
+.save {
+  background-color: #0058fa;
+  font-size: 0.7rem;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  margin-left: 1rem;
+}
+.cancle:hover,
+.save:hover {
+  cursor: pointer;
+}
+.emp-list {
+  height: calc(100% - 3rem);
+  overflow-y: scroll;
+}
+.emp-table::-webkit-scrollbar {
+  display: none;
+}
+.TableScrollbar::-webkit-scrollbar {
+  display: none;
+}
+table {
+  width: 100%;
+}
+thead {
+  font-size: 0.7rem;
+  color: #3d4b5b;
+  font-weight: bold;
+  display: flex;
+  height: 3rem;
+  width: 100%;
+  align-items: center;
+  border-bottom: solid 3px #f3f4f8;
+  background-color: white;
+  margin-top: -0.1rem;
+  
+}
+
+tr {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.emp-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.empid {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.9rem;
+  width: 9.5%;
+  margin-left: 2rem;
+}
+.empname-email {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 18.5%;
+}
+.ename {
+  color: #0058fa;
+  font-size: 1rem;
+}
+.emp-email {
+  color: #929292;
+  font-size: 0.7rem;
+}
+.emp-item {
+  color: #404b5b;
+  font-size: 0.8rem;
+  width: 15%;
+}
+.emp-item1 {
+  color: #404b5b;
+  font-size: 0.8rem;
+  width: 15%;
+}
+.emp-manager {
+  color: #696969;
+  font-size: 0.8rem;
+  width: 15%;
+}
+.emprow {
+  height: 4rem;
+  width: 100%;
+  border-bottom: solid 2px #f3f4f8;
+  display: flex;
+  justify-content: flex-start;
+}
+.row-head {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+}
+thead tr .empid-head {
+  width: 10%;
+  text-align: left;
+}
+thead tr .empname-head {
+  width: 19%;
+  text-align: left;
+}
+thead tr .emprole-head,
+thead tr .empmobile-head,
+thead tr .empjoin-head {
+  width: 15%;
+  text-align: left;
+}
+thead tr .empmanager-head {
+  width: 20%;
+  text-align: left;
+}
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btnSee{
     outline: none;
     border: none;
-    width: 100%;
-}
-.footer{
+    color: blue;
     background-color: white;
+}
+.btn-See-more{
     width: 100%;
-    height: 3.5rem;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-.emp_article{
-    padding: 1rem 2rem 0;
-}
-.footer_btn{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding: 0 2rem;
-    height: 100%;
-}
-.cancle{
-    background-color: #666666;
-    font-size: .7rem;
-    color:#ffffff;
-    padding: .6rem;
-    border: none;
-}
-.save{
-    background-color: #0058fa;
-    font-size: .7rem;
-    color: white;
-    padding: .6rem 1rem;
-    border: none;
-    margin-left: 1rem;
-}
-.cancle:hover,.save:hover{
-    cursor: pointer;
-}
-.emp-list{
-    height: calc(100% - 3rem);
-    overflow-y: scroll;
-}
-.emp-list::-webkit-scrollbar {
-    display: none;
-  }
-table{
-      height: 100%;
-      width: 100%;
-}
-thead{
-    font-size: .7rem;
-    color: #3d4b5b;
-    font-weight: bold;
-    display: flex;
+    justify-content: center;
     height: 3rem;
-    width: 100%;
-    align-items: center;
-    border-bottom: solid 3px #f3f4f8;
 }
-tr{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-.emp-img{
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    margin-right: .5rem;
-}
-.empid{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: .9rem;
-    width: 8rem;
-    margin-left: 2rem;
-}
-.empname-email{
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    width: 14rem;
-}
-.ename{
-    color: #0058fa;
-    font-size: 1rem;
-}
-.emp-email{
-    color: #929292;
-    font-size: .7rem;
-}
-.emp-item{
-    color: #404b5b;
-    font-size: .8rem;
-    width: 11rem;
-}
-.emp-item1{
-    color: #404b5b;
-    font-size: .8rem;
-    width: 11rem;
-}
-.emp-manager{
-    color: #696969;
-    font-size: .8rem;
-}
-.emprow{
-    height: 4rem;
-    width: 100%;
-    border-bottom: solid 2px #f3f4f8;
-}
-.row-head{
-display: flex;
-justify-content: flex-start;
-margin-left: 2rem;
-}
-.empid-head{
-width: 8rem;
-text-align: left;
-}
-.empname-head{
-    width: 14rem;
-    text-align: left;
-}
-.emprole-head,.empmobile-head,.empjoin-head{
-    width: 11rem;
-    text-align: left;
-}
-.empmanager-head{
-    width: 10rem;
-    text-align: left;
+.btnSee:hover{
+    cursor: pointer;
 }
