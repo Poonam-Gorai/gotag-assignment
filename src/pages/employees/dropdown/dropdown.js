@@ -6,8 +6,7 @@ export default function Dropdown({
   prompt,
   value,
   onChange,
-  id,
-  label,
+  id
 }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
@@ -25,15 +24,15 @@ export default function Dropdown({
   }
   //filter
   function filter(options) {
-    return options.filter(
-      (option) => option[label].toLowerCase().indexOf(query.toLowerCase()) > -1
+    return options?.filter(
+      (option) => option.manager_name.toLowerCase().indexOf(query.toLowerCase()) > -1
     );
   }
 
 
   function displayValue() {
       if(query.length >0) return query;
-      if(value) return value[label];
+      if(value) return value.manager_name;
       return "";
   }
   return (
@@ -43,8 +42,9 @@ export default function Dropdown({
           <div className="selected-value">
             <input
               type="text"
+              className="inputfield"
               ref={ref}
-              placeholder={value ? value[label] : prompt}
+              placeholder={value ? value.manager_name : prompt}
               value={displayValue()}
               onChange={e => {
                   setQuery(e.target.value)
@@ -56,9 +56,9 @@ export default function Dropdown({
           <div className={`drop ${open ? "open" : null}`} />
         </div>
         <div className={`options ${open ? "open" : null}`}>
-          {filter(options).map((option) => (
+          {filter(options)?.map((option) => (
             <div
-              key={option[id]}
+              key={option.id}
               className={`option ${value === option ? "selected" : null}`}
               onClick={() => {
                   setQuery("");
@@ -66,7 +66,8 @@ export default function Dropdown({
                 setOpen(false);
               }}
             >
-              {option[label]}
+             <div> {option.manager_name}</div>
+             <div>+</div> 
             </div>
           ))}
           <div className="option"></div>

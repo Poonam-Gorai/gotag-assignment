@@ -3,13 +3,18 @@ import "./employees.css";
 import SearchIcon from "../../assets/images/search-icon.png";
 import data from "../../redux/store/data";
 import TableScrollbar from "react-table-scrollbar";
-import Dropdown from "./dropdown/dropdown";
-import managers from '../../redux/store/managerlist.json';
+// import Dropdown from "./dropdown/dropdown";
+// import managers from '../../redux/store/managerlist.json';
+import EmployeeList from "./employeelist/employeelist";
 
 function Employees() {
   const [emplist, setEmpList] = useState(data);
 //dropdown
-const [value, setValue] = useState(null)
+// const [value, setValue] = useState(null);
+// const [ currentId ,setCurrentId] = useState(0)
+//console.log(emplist.id);
+// const empManagerId = emplist[id]?.empManagerId;
+// console.log(empManagerId);
   //search
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -50,6 +55,7 @@ const [value, setValue] = useState(null)
       setOrder("ASC");
     }
   };
+  
 
   // pagination
   const [visible, setVisible] = useState(10);
@@ -123,9 +129,19 @@ const [value, setValue] = useState(null)
                   }
                 })
                 .slice(0, visible)
-                .map((val, index) => (
-                  <tr className="emprow" key={index}>
-                    <td className="empid">
+                .map((val) => (
+                  <tr className="emprow" key={val.id} >
+<EmployeeList 
+ename={val.ename}
+email={val.email}
+role={val.role}
+mobile={val.mobile}
+join={val.join}
+image={val.image}
+id={val.id}
+
+/>
+                    {/* <td className="empid">
                       <img src={val.image} alt="img" className="emp-img" />#
                       {val.id}
                     </td>
@@ -141,10 +157,9 @@ const [value, setValue] = useState(null)
                       options={managers} 
                       prompt="Select"
                       value={value}
-                      id='index'
-                      label='manager_name'
-                      onChange={empval => setValue(empval)}
-                      /></td>
+                      // id={val.id}
+                      onChange={(empval) => setValue(empval)}
+                      /></td> */}
                   </tr>
                 ))}
             </tbody>
