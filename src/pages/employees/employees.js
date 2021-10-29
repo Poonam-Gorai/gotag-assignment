@@ -3,10 +3,13 @@ import "./employees.css";
 import SearchIcon from "../../assets/images/search-icon.png";
 import data from "../../redux/store/data";
 import TableScrollbar from "react-table-scrollbar";
+import Dropdown from "./dropdown/dropdown";
+import managers from '../../redux/store/managerlist.json';
 
 function Employees() {
   const [emplist, setEmpList] = useState(data);
-
+//dropdown
+const [value, setValue] = useState(null)
   //search
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -133,7 +136,15 @@ function Employees() {
                     <td className="emp-item">{val.role}</td>
                     <td className="emp-item1">{val.mobile}</td>
                     <td className="emp-item1">{val.join}</td>
-                    <td className="emp-manager">{val.manager}</td>
+                    <td className="emp-manager" style={{width:90}}>
+                      <Dropdown 
+                      options={managers} 
+                      prompt="Select"
+                      value={value}
+                      id='index'
+                      label='manager_name'
+                      onChange={empval => setValue(empval)}
+                      /></td>
                   </tr>
                 ))}
             </tbody>

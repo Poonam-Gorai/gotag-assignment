@@ -34,8 +34,23 @@ code {
     font-size: 9px;
   }
 }
-@media screen and (min-width : 2560px) {
+@media screen and (min-width : 2960px) {
   html{
-    font-size: 25px;
+    font-size: 34px;
+  }
+}
+@media screen and (min-width : 2115px) {
+  html{
+    font-size: 22px;
+  }
+}
+@media screen and (min-width : 4187px) {
+  html{
+    font-size: 38px;
+  }
+}
+@media screen and (min-width : 5000px) {
+  html{
+    font-size: 50px;
   }
 }

@@ -13,7 +13,7 @@ function Navbar() {
       <li className ="nav-li"key={index} id={location.pathname === url ? "active" : " "}>
         <Link to={url}>
         {/* <Link to={`${url}?name=${test}&age=10`}> */}
-          <img src={image} alt="alt-img"/>
+         <div className="img-wid"> <img src={image} alt="alt-img"/></div>
           <span className="title">{title}</span>
         </Link>
       </li>
