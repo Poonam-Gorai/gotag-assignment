@@ -6,15 +6,18 @@ import TableScrollbar from "react-table-scrollbar";
 // import Dropdown from "./dropdown/dropdown";
 // import managers from '../../redux/store/managerlist.json';
 import EmployeeList from "./employeelist/employeelist";
+import BreadCrumb from "../../components/breadcrumb/breadcrumb";
 
 function Employees() {
   const [emplist, setEmpList] = useState(data);
-//dropdown
-// const [value, setValue] = useState(null);
-// const [ currentId ,setCurrentId] = useState(0)
-//console.log(emplist.id);
-// const empManagerId = emplist[id]?.empManagerId;
-// console.log(empManagerId);
+
+  //breadcrumbs
+  const [crumbs, setCrumbs] = useState(['Employees', ' All Employees']);
+
+  const selected = crumb => {
+    console.log(crumb);
+  }
+
   //search
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -41,35 +44,33 @@ function Employees() {
   const sortingNum = (col) => {
     //console.log("clicked");
     if (order === "ASC") {
-      const sorted = [...emplist].sort((a, b) =>
-        a[col] - b[col]
-      );
+      const sorted = [...emplist].sort((a, b) => a[col] - b[col]);
       setEmpList(sorted);
       setOrder("DSC");
     }
     if (order === "DSC") {
-      const sorted = [...emplist].sort((a, b) =>
-      b[col] - a[col]
-      );
+      const sorted = [...emplist].sort((a, b) => b[col] - a[col]);
       setEmpList(sorted);
       setOrder("ASC");
     }
   };
-  
 
   // pagination
   const [visible, setVisible] = useState(10);
   const showMoreItems = () => {
-    console.log("click");
+    //console.log("click");
     setVisible((prevValue) => prevValue + 10);
   };
 
   return (
     <article className="emp_article">
-      <div className="Breadcrums">
+      <BreadCrumb 
+      crumbs ={crumbs} 
+      selected={selected}/>
+      {/* <div className="Breadcrums">
         <span className="blue-Emp">Employees </span>
         <span className="allEmp"> / All Employees</span>
-      </div>
+      </div> */}
       <div className="search_emp_wrap">
         <div className="empCount">All Employees ({emplist.length})</div>
         <div className="search-box">
@@ -88,7 +89,9 @@ function Employees() {
         <table>
           <thead>
             <tr className="row-head">
-              <th onClick={() => sortingNum("id")}className="empid-head">EMP. ID</th>
+              <th onClick={() => sortingNum("id")} className="empid-head">
+                EMP. ID
+              </th>
               <th onClick={() => sorting("ename")} className="empname-head">
                 NAME/EMAIL
               </th>
@@ -130,17 +133,16 @@ function Employees() {
                 })
                 .slice(0, visible)
                 .map((val) => (
-                  <tr className="emprow" key={val.id} >
-<EmployeeList 
-ename={val.ename}
-email={val.email}
-role={val.role}
-mobile={val.mobile}
-join={val.join}
-image={val.image}
-id={val.id}
-
-/>
+                  <tr className="emprow" key={val.id}>
+                    <EmployeeList
+                      ename={val.ename}
+                      email={val.email}
+                      role={val.role}
+                      mobile={val.mobile}
+                      join={val.join}
+                      image={val.image}
+                      id={val.id}
+                    />
                     {/* <td className="empid">
                       <img src={val.image} alt="img" className="emp-img" />#
                       {val.id}

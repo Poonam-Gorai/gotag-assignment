@@ -2,6 +2,9 @@
   position: relative;
   color: #333;
 }
+.dropdown:hover , .inputfield{
+  background-color:  #f6faff;;
+}
 .dropdown .drop {
   border-color: #999 transparent transparent;
   border-style: solid;
@@ -27,7 +30,9 @@
   transition: all 200ms ease;
   width: 100%;
 }
-
+/* .dropdown .selected-value input :hover{
+  background-color: #f2f9fc;
+} */
 .dropdown .options {
   display: none;
   background-color: #fff;
@@ -38,7 +43,7 @@
   overflow-y: auto;
   position: absolute;
   top: 100%;
-  width: 130%;
+  width: 161%;
   z-index: 1000;
 }
 
@@ -74,4 +79,8 @@
 .inputfield {
   text-decoration: underline;
   color: #0058fa;
+}
+.inputfield::placeholder {
+  text-decoration: underline;
+  color: #333;
 }

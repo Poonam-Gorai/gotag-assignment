@@ -20,12 +20,12 @@
 }
 .card-eid {
   color: #0059fb;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 .card-ename {
   color: #404b5b;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
 }
 .edate-content {
@@ -35,11 +35,11 @@
 }
 .card-edate {
   color: #404b5b;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 .card-ecomment {
   color: #404b5b;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 .btns {
   display: flex;

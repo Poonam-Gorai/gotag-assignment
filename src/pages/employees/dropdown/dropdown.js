@@ -1,13 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./dropdown.css";
 
-export default function Dropdown({
-  options,
-  prompt,
-  value,
-  onChange,
-  id
-}) {
+export default function Dropdown({ options, prompt, value, onChange, id }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
 
@@ -25,15 +19,15 @@ export default function Dropdown({
   //filter
   function filter(options) {
     return options?.filter(
-      (option) => option.manager_name.toLowerCase().indexOf(query.toLowerCase()) > -1
+      (option) =>
+        option.manager_name.toLowerCase().indexOf(query.toLowerCase()) > -1
     );
   }
 
-
   function displayValue() {
-      if(query.length >0) return query;
-      if(value) return value.manager_name;
-      return "";
+    if (query.length > 0) return query;
+    if (value) return value.manager_name;
+    return "";
   }
   return (
     <>
@@ -46,9 +40,9 @@ export default function Dropdown({
               ref={ref}
               placeholder={value ? value.manager_name : prompt}
               value={displayValue()}
-              onChange={e => {
-                  setQuery(e.target.value)
-                  onChange(null)
+              onChange={(e) => {
+                setQuery(e.target.value);
+                onChange(null);
               }}
               onClick={() => setOpen((prev) => !prev)}
             />
@@ -61,13 +55,13 @@ export default function Dropdown({
               key={option.id}
               className={`option ${value === option ? "selected" : null}`}
               onClick={() => {
-                  setQuery("");
+                setQuery("");
                 onChange(option);
                 setOpen(false);
               }}
             >
-             <div> {option.manager_name}</div>
-             <div>+</div> 
+              <div> {option.manager_name}</div>
+              <div>+</div>
             </div>
           ))}
           <div className="option"></div>

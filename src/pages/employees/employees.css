@@ -104,7 +104,6 @@ thead {
   border-bottom: solid 3px #f3f4f8;
   background-color: white;
   margin-top: -0.2rem;
-  
 }
 
 tr {
@@ -206,23 +205,40 @@ thead tr .empmanager-head {
   border-radius: 5px;
   cursor: pointer;
 }
-.btnSee{
-    outline: none;
-    border: none;
-    color: blue;
-    background-color: white;
-    font-size: .8rem;
+.btnSee {
+  outline: none;
+  border: none;
+  color: blue;
+  background-color: white;
+  font-size: 0.8rem;
 }
-.btn-See-more{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 3rem;
+.btn-See-more {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
 }
-.btnSee:hover{
-    cursor: pointer;
+.btnSee:hover {
+  cursor: pointer;
 }
-.TableScrollbar{
+.TableScrollbar {
   height: calc(100% - 3rem) !important;
+}
+.btnbread {
+  color: #0058fa;
+  font-size: 0.7rem;
+  border: none;
+  outline: none;
+  background-color: #f3f4f8;
+  cursor: pointer;
+}
+.disabled {
+  color: #929292;
+  font-size: 0.7rem;
+  background-color: #f3f4f8;
+}
+.emprow:hover {
+  background-color: #f6faff;
+  cursor: pointer;
 }

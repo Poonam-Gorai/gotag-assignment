@@ -182,5 +182,9 @@ h3 {
   height: calc(100% - 1.5rem);
 }
 .empList::-webkit-scrollbar {
-  display: none;
+  width: 4px;
 }
+.empList::-webkit-scrollbar-thumb {
+  background-color: #e2e1e1;
+  border-radius: 10rem;
+  height: 60%;}
