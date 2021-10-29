@@ -22,7 +22,8 @@ function Navbar() {
   return (
     <>
       <header>
-        <img src={Gotag} className="logo" alt="logo"/>
+        <Link to="/dashboard">
+        <img src={Gotag} className="logo" alt="logo"/></Link>
         <div className="wrapper-profile">
           <img src={Notify} className="notify-icon" alt="notify"/>
           <div className="img-content">

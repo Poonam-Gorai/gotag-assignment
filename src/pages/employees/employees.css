@@ -117,6 +117,7 @@ tr {
   height: 2.5rem;
   border-radius: 50%;
   margin-right: 0.5rem;
+  object-fit: cover;
 }
 .empid {
   display: flex;
@@ -169,7 +170,6 @@ tr {
 }
 thead tr .empid-head {
   width: 10%;
-  text-align: left;
 }
 thead tr .empname-head {
   width: 19%;
@@ -241,4 +241,18 @@ thead tr .empmanager-head {
 .emprow:hover {
   background-color: #f6faff;
   cursor: pointer;
+}
+.sortelem{
+display: flex;
+flex-direction: column;
+}
+.th-element{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+grid-column-gap: .3rem;
+}
+.sort-icon{
+height: .4rem;
+width: .4rem;
 }

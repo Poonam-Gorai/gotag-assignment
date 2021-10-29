@@ -57,6 +57,7 @@ ul {
 }
 .logo {
   height: 2rem;
+  cursor: pointer;
 }
 a {
   display: flex;
@@ -72,6 +73,7 @@ a {
 }
 .notify-icon {
   height: 2.5rem;
+  cursor: pointer;
 }
 .img-content {
   display: flex;
@@ -88,13 +90,17 @@ a {
   width: 2.5rem;
   border-radius: 50%;
   margin-left: 0.5rem;
+  object-fit: cover;
+  cursor: pointer;
 }
 .maria {
   font-weight: 800;
-  font-size: 1rem
+  font-size: 1rem;
+  cursor: pointer;
 }
 .admin{
   font-size: 1rem ;
+  cursor: pointer;
 }
 .img-wid{
   min-width: 2.5rem;

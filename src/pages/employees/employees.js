@@ -1,22 +1,24 @@
 import React, { useState } from "react";
 import "./employees.css";
-import SearchIcon from "../../assets/images/search-icon.png";
+import SearchIcon from "../../assets/images/search.png";
 import data from "../../redux/store/data";
 import TableScrollbar from "react-table-scrollbar";
 // import Dropdown from "./dropdown/dropdown";
 // import managers from '../../redux/store/managerlist.json';
 import EmployeeList from "./employeelist/employeelist";
 import BreadCrumb from "../../components/breadcrumb/breadcrumb";
+import SortUp from "../../assets/images/up.png";
+import Sortdown from "../../assets/images/down.png";
 
 function Employees() {
   const [emplist, setEmpList] = useState(data);
 
   //breadcrumbs
-  const [crumbs, setCrumbs] = useState(['Employees', ' All Employees']);
+  const [crumbs, setCrumbs] = useState(["Employees / ", "All Employees"]);
 
-  const selected = crumb => {
+  const selected = (crumb) => {
     console.log(crumb);
-  }
+  };
 
   //search
   const [searchTerm, setSearchTerm] = useState("");
@@ -64,9 +66,7 @@ function Employees() {
 
   return (
     <article className="emp_article">
-      <BreadCrumb 
-      crumbs ={crumbs} 
-      selected={selected}/>
+      <BreadCrumb crumbs={crumbs} selected={selected} />
       {/* <div className="Breadcrums">
         <span className="blue-Emp">Employees </span>
         <span className="allEmp"> / All Employees</span>
@@ -89,18 +89,60 @@ function Employees() {
         <table>
           <thead>
             <tr className="row-head">
-              <th onClick={() => sortingNum("id")} className="empid-head">
-                EMP. ID
+              <th className="empid-head" onClick={() => sortingNum("id")}>
+                <div className="th-element">
+                  <span className="empid-head1">EMP. ID</span>
+                  <div className="sortelem">
+                    <img className="sort-icon" src={SortUp} alt="sort" />
+                    <img className="sort-icon" src={Sortdown} alt="sort" />
+                  </div>
+                </div>
               </th>
               <th onClick={() => sorting("ename")} className="empname-head">
-                NAME/EMAIL
+                <div className="th-element">
+                  <span className="empname-head1">NAME/EMAIL</span>
+                  <div className="sortelem">
+                    <img className="sort-icon" src={SortUp} alt="sort" />
+                    <img className="sort-icon" src={Sortdown} alt="sort" />
+                  </div>
+                </div>
               </th>
               <th onClick={() => sorting("role")} className="emprole-head">
-                ROLE
+                <div className="th-element">
+                  <span className="emprole-head1">ROLE</span>
+                  <div className="sortelem">
+                    <img className="sort-icon" src={SortUp} alt="sort" />
+                    <img className="sort-icon" src={Sortdown} alt="sort" />
+                  </div>
+                </div>
               </th>
-              <th className="empmobile-head">MOBILE</th>
-              <th className="empjoin-head">JOIN DATE</th>
-              <th className="empmanager-head">MANAGER</th>
+              <th className="empmobile-head">
+                <div className="th-element">
+                  <span className="emprole-head1">MOBILE</span>
+                  <div className="sortelem">
+                    <img className="sort-icon" src={SortUp} alt="sort" />
+                    <img className="sort-icon" src={Sortdown} alt="sort" />
+                  </div>
+                </div>
+              </th>
+              <th className="empjoin-head">
+                <div className="th-element">
+                  <span className="emprole-head1">JOIN DATE</span>
+                  <div className="sortelem">
+                    <img className="sort-icon" src={SortUp} alt="sort" />
+                    <img className="sort-icon" src={Sortdown} alt="sort" />
+                  </div>
+                </div>
+              </th>
+              <th className="empmanager-head">
+                <div className="th-element">
+                  <span className="emprole-head1">MANAGER</span>
+                  <div className="sortelem">
+                    <img className="sort-icon" src={SortUp} alt="sort" />
+                    <img className="sort-icon" src={Sortdown} alt="sort" />
+                  </div>
+                </div>
+              </th>
             </tr>
           </thead>
         </table>

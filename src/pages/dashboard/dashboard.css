@@ -155,6 +155,7 @@ h3 {
   height: 1.4rem;
   border-radius: 50%;
   padding-right: 2px;
+  object-fit: cover;
 }
 .wrap-town-pro {
   display: flex;

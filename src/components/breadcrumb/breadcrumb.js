@@ -18,7 +18,7 @@ function BreadCrumb(props) {
                 className={`btnbread ${disabled}`}
                 onClick={() => props.selected(crumb)}
               >
-                {crumb}&nbsp;/&nbsp;
+                {crumb}&nbsp;
               </button>
             </span>
           );
