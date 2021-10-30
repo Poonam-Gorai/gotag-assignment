@@ -18,6 +18,7 @@ export default function Dropdown({ options, prompt, value, onChange, id }) {
   }
   //filter
   function filter(options) {
+    
     return options?.filter(
       (option) =>
         option.manager_name.toLowerCase().indexOf(query.toLowerCase()) > -1
@@ -33,7 +34,7 @@ export default function Dropdown({ options, prompt, value, onChange, id }) {
     <>
       <div className="dropdown">
         <div className="control" onClick={() => setOpen((prev) => !prev)}>
-          <div className="selected-value">
+          <div className="selected-value" onClick={() => setOpen((prev) => !prev)}>
             <input
               type="text"
               className="inputfield"
@@ -46,8 +47,9 @@ export default function Dropdown({ options, prompt, value, onChange, id }) {
               }}
               onClick={() => setOpen((prev) => !prev)}
             />
+            <div className={`drop ${open ? "open" : null}`} onClick={() => setOpen((prev) => !prev)} />
           </div>
-          <div className={`drop ${open ? "open" : null}`} />
+          {/* <div className={`drop ${open ? "open" : null}`} onClick={() => setOpen((prev) => !prev)} /> */}
         </div>
         <div className={`options ${open ? "open" : null}`}>
           {filter(options)?.map((option) => (

@@ -15,6 +15,7 @@
   right: 10px;
   top: 8px;
   width: 6px;
+  cursor: pointer;
 }
 
 .dropdown .drop.open {
@@ -83,4 +84,7 @@
 .inputfield::placeholder {
   text-decoration: underline;
   color: #333;
+}
+.inputfield{
+  cursor: pointer;
 }

@@ -56,12 +56,15 @@ function Employees() {
       setOrder("ASC");
     }
   };
-
+  function isLast(index) {
+    return index === emplist.length;
+  }
   // pagination
   const [visible, setVisible] = useState(10);
   const showMoreItems = () => {
-    //console.log("click");
+    
     setVisible((prevValue) => prevValue + 10);
+    console.log(setVisible);  
   };
 
   return (
