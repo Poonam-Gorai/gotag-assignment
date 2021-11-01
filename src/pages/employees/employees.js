@@ -62,9 +62,8 @@ function Employees() {
   // pagination
   const [visible, setVisible] = useState(10);
   const showMoreItems = () => {
-    
     setVisible((prevValue) => prevValue + 10);
-    console.log(setVisible);  
+    console.log(setVisible);
   };
 
   return (
@@ -156,25 +155,25 @@ function Employees() {
               {emplist
                 // eslint-disable-next-line
                 .filter((val) => {
-                  if (searchTerm === "") {
-                    return val;
-                  } else if (
-                    val.ename.toLowerCase().includes(searchTerm.toLowerCase())
-                  ) {
-                    return val;
-                  } else if (
-                    val.email.toLowerCase().includes(searchTerm.toLowerCase())
-                  ) {
-                    return val;
-                  } else if (
-                    val.role.toLowerCase().includes(searchTerm.toLowerCase())
-                  ) {
-                    return val;
-                  } else if (
-                    val.id.toLowerCase().includes(searchTerm.toLowerCase())
-                  ) {
-                    return val;
-                  }
+                    if (searchTerm === "") {
+                      return val;
+                    } else if (
+                      val.ename.toLowerCase().includes(searchTerm.toLowerCase())
+                    ) {
+                      return val;
+                    } else if (
+                      val.email.toLowerCase().includes(searchTerm.toLowerCase())
+                    ) {
+                      return val;
+                    } else if (
+                      val.role.toLowerCase().includes(searchTerm.toLowerCase())
+                    ) {
+                      return val;
+                    } else if (
+                      val.id.toLowerCase().includes(searchTerm.toLowerCase())
+                    ) {
+                      return val;
+                    }
                 })
                 .slice(0, visible)
                 .map((val) => (

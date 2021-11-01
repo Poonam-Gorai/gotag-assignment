@@ -242,17 +242,88 @@ thead tr .empmanager-head {
   background-color: #f6faff;
   cursor: pointer;
 }
-.sortelem{
-display: flex;
-flex-direction: column;
+.sortelem {
+  display: flex;
+  flex-direction: column;
 }
-.th-element{
-display: flex;
-align-items: center;
-justify-content: flex-start;
-grid-column-gap: .3rem;
+.th-element {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  grid-column-gap: 0.3rem;
 }
-.sort-icon{
-height: .4rem;
-width: .4rem;
+.sort-icon {
+  height: 0.4rem;
+  width: 0.4rem;
+}
+.flex-wrapper {
+  display: flex;
+}
+.manager-model-head {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  color: #696969;
+  background-color: #f3f4f8;
+}
+.inputfield {
+  background-color: #f6faff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchIcon-manag {
+  height: 1.2rem;
+  width: 1.2rem;
+  position: relative;
+  top: 5%;
+}
+.search-inputfield {
+  height: 2rem;
+  width: 100%;
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  caret-color: #404b5b;
+}
+.inputfield input {
+  background-color: #f6faff;
+  outline: none;
+  border: none;
+}
+.manager-list {
+  padding: 0.2rem;
+  max-height: 12rem;
+  overflow-y: scroll;
+}
+.list_name {
+  padding: 0.3rem 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  overflow: hidden;
+}
+.display-select {
+  display: flex;
+  column-gap: 0.2rem;
+  text-decoration: underline;
+}
+.down-icon {
+  width: 8px;
+}
+.blue-man {
+  color: #0058fa;
+  text-decoration: underline;
+}
+.manager-list::-webkit-scrollbar {
+  width: 4px;
+}
+.manager-list::-webkit-scrollbar-thumb {
+  background-color: #e2e1e1;
+  border-radius: 10rem;
+  height: 50%;
+}
+.btn-See-more-none {
+  display: none;
 }

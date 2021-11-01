@@ -5,7 +5,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
@@ -15,7 +15,7 @@ const Employee =[
         email : "garrettwinters@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -25,7 +25,7 @@ const Employee =[
         email : "ashtoncox@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -35,7 +35,7 @@ const Employee =[
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -45,7 +45,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -55,7 +55,7 @@ const Employee =[
         email : "Emma@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -65,7 +65,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -75,7 +75,7 @@ const Employee =[
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Interaction Designer"
     },
@@ -85,7 +85,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -95,7 +95,7 @@ const Employee =[
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -105,7 +105,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -115,7 +115,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -125,7 +125,7 @@ const Employee =[
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -135,7 +135,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
@@ -145,7 +145,7 @@ const Employee =[
         email : "Emma@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -155,7 +155,7 @@ const Employee =[
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -165,7 +165,7 @@ const Employee =[
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Interaction Designer"
     },
@@ -175,7 +175,7 @@ const Employee =[
         email : "Rebeccajames@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Data Analyst"
     },
@@ -185,7 +185,7 @@ const Employee =[
         email : "Thomasgreen@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -195,7 +195,7 @@ const Employee =[
         email : "Summersimpsons@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
@@ -205,7 +205,7 @@ const Employee =[
         email : "James.w@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -215,7 +215,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -225,7 +225,7 @@ const Employee =[
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Front End Developer"
     },
@@ -235,7 +235,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
@@ -245,7 +245,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Interaction Designer"
     },
@@ -255,7 +255,7 @@ const Employee =[
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -265,7 +265,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
@@ -275,7 +275,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Web Developer"
     },
@@ -285,7 +285,7 @@ const Employee =[
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -295,7 +295,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
@@ -305,7 +305,7 @@ const Employee =[
         email : "Emma@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -315,7 +315,7 @@ const Employee =[
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
@@ -325,7 +325,7 @@ const Employee =[
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -335,7 +335,7 @@ const Employee =[
         email : "Rebeccajames@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
@@ -345,7 +345,7 @@ const Employee =[
         email : "Thomasgreen@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -355,7 +355,7 @@ const Employee =[
         email : "Summersimpsons@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
@@ -365,7 +365,7 @@ const Employee =[
         email : "James.w@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -375,7 +375,7 @@ const Employee =[
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
@@ -385,7 +385,7 @@ const Employee =[
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
@@ -395,7 +395,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "Software Engineer"
     },
@@ -405,7 +405,7 @@ const Employee =[
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
-        manager: " ",
+        manager: "",
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
