@@ -32,7 +32,7 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
   };
 
   const empList = useSelector((state) => state.SaveReducer);
-console.log(empList[id - 1].manager);
+//console.log(empList[id - 1].manager);
   return (
     <>
       <td className="empid">

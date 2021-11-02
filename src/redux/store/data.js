@@ -409,6 +409,306 @@ const Employee =[
         image: "../../images/profile-img.jpg",
         role : "UX Designer"
     },
+    {
+        id: "42",
+        ename : "Bernardo Galavis",
+        email : "bernardogalavis@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Web Developer"
+    },
+    {
+        id : "43",
+        ename : "Garrett Winters",
+        email : "garrettwinters@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "44",
+        ename : "Ashton Cox",
+        email : "ashtoncox@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "45",
+        ename : "Ruby Pen",
+        email : "Ruby.p@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "46",
+        ename : "Ariana Grande",
+        email : "Ariana.g@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "47",
+        ename : "Emma Watson",
+        email : "Emma@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "48",
+        ename : "Bernardo Galavis",
+        email : "bernardogalavis@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "49",
+        ename : "Theon Grey",
+        email : "Grey.theon@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Interaction Designer"
+    },
+    {
+        id : "50",
+        ename : "Ariana Grande",
+        email : "Ariana.g@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "51",
+        ename : "Theon Grey",
+        email : "Grey.theon@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "52",
+        ename : "Bernardo Galavis",
+        email : "bernardogalavis@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "53",
+        ename : "Ariana Grande",
+        email : "Ariana.g@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "54",
+        ename : "Theon Grey",
+        email : "Grey.theon@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "55",
+        ename : "Ariana Grande",
+        email : "Ariana.g@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Web Developer"
+    },
+    {
+        id : "56",
+        ename : "Emma Watson",
+        email : "Emma@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "57",
+        ename : "Ruby Pen",
+        email : "Ruby.p@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "58",
+        ename : "Tania Rai",
+        email : "Tania@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Interaction Designer"
+    },
+    {
+        id : "59",
+        ename : "Rebecca James",
+        email : "Rebeccajames@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Data Analyst"
+    },
+    {
+        id : "60",
+        ename : "Thomas Green",
+        email : "Thomasgreen@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "UX Designer"
+    },
+    {
+        id : "61",
+        ename : "Summer Simpson",
+        email : "Summersimpsons@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Web Developer"
+    },
+    {
+        id : "62",
+        ename : "James White",
+        email : "James.w@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "63",
+        ename : "Ariana Grande",
+        email : "Ariana.g@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "UX Designer"
+    },
+    {
+        id : "64",
+        ename : "Tania Rai",
+        email : "Tania@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Front End Developer"
+    },
+    {
+        id : "65",
+        ename : "Bernardo Galavis",
+        email : "bernardogalavis@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Web Developer"
+    },
+    {
+        id : "66",
+        ename : "Bernardo Galavis",
+        email : "bernardogalavis@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Interaction Designer"
+    },
+    {
+        id : "67",
+        ename : "Theon Grey",
+        email : "Grey.theon@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "UX Designer"
+    },
+    {
+        id : "68",
+        ename : "Bernardo Galavis",
+        email : "bernardogalavis@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Software Engineer"
+    },
+    {
+        id : "69",
+        ename : "Ariana Grande",
+        email : "Ariana.g@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Web Developer"
+    },
+    {
+        id : "70",
+        ename : "Theon Grey",
+        email : "Grey.theon@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "UX Designer"
+    },
+    {
+        id : "71",
+        ename : "Ariana Grande",
+        email : "Ariana.g@piktorlabs.com",
+        join : "Jan 1,2020",
+        mobile: 9876543210,
+        manager: "",
+        image: "../../images/profile-img.jpg",
+        role : "Software Engineer"
+    },
 
 ];
 

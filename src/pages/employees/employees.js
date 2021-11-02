@@ -19,6 +19,14 @@ function Employees() {
   const selected = (crumb) => {
     console.log(crumb);
   };
+   // pagination
+   const [currentPage,setcurrentPage] = useState(1);
+   const [visible, setVisible] = useState(10);
+
+   const pages = [];
+   for(let i=1; i<= Math.ceil(emplist.length/visible); i++)
+   {pages.push(i);
+  }
 
   //search
   const [searchTerm, setSearchTerm] = useState("");
@@ -56,14 +64,11 @@ function Employees() {
       setOrder("ASC");
     }
   };
-  function isLast(index) {
-    return index === emplist.length;
-  }
+ 
   // pagination
-  const [visible, setVisible] = useState(10);
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 10);
-    console.log(setVisible);
+   // console.log(setVisible);
   };
 
   return (
@@ -155,7 +160,7 @@ function Employees() {
               {emplist
                 // eslint-disable-next-line
                 .filter((val) => {
-                    if (searchTerm === "") {
+                    if (searchTerm === "  ") {
                       return val;
                     } else if (
                       val.ename.toLowerCase().includes(searchTerm.toLowerCase())
@@ -212,10 +217,18 @@ function Employees() {
             {/* </div> */}
           </table>
           <div className="btn-See-more">
-            <button onClick={showMoreItems} className="btnSee">
+            <button onClick={showMoreItems} 
+            disabled = {currentPage === pages[pages.length - 1] ? true : false}
+            className ="btnSee">
               See more...
             </button>
           </div>
+          {/* {emplist[40] === emplist.length && (
+          <div className="btn-See-more-none">
+            <button onClick={showMoreItems} className="btnSee">
+              See more...
+            </button>
+          </div>)} */}
         </TableScrollbar>
       </div>
       <footer className="footer">
