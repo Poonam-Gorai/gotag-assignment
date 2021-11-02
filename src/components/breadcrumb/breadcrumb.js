@@ -9,7 +9,7 @@ function BreadCrumb(props) {
 
   return (
     <>
-      <ol className="Breadcrums">
+      <div className="Breadcrums">
         {props.crumbs.map((crumb, ci) => {
           const disabled = isLast(ci) ? "disabled" : "" ;
           return (
@@ -23,7 +23,7 @@ function BreadCrumb(props) {
             </span>
           );
         })}
-      </ol>
+      </div>
     </>
   );
 }

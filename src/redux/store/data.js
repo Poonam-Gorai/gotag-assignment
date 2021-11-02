@@ -21,7 +21,7 @@ const Employee =[
     },
     {
         id : "3",
-        ename : "Ashton Cox",
+        ename : "Ashton",
         email : "ashtoncox@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -31,7 +31,7 @@ const Employee =[
     },
     {
         id : "4",
-        ename : "Ruby Pen",
+        ename : "Ruby",
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -41,7 +41,7 @@ const Employee =[
     },
     {
         id : "5",
-        ename : "Ariana Grande",
+        ename : "Ariana",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -61,7 +61,7 @@ const Employee =[
     },
     {
         id : "7",
-        ename : "Bernardo Galavis",
+        ename : "Bernardo",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -71,7 +71,7 @@ const Employee =[
     },
     {
         id : "8",
-        ename : "Theon Grey",
+        ename : "Theon Gey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -91,7 +91,7 @@ const Employee =[
     },
     {
         id : "10",
-        ename : "Theon Grey",
+        ename : "Theaey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -101,7 +101,7 @@ const Employee =[
     },
     {
         id : "11",
-        ename : "Bernardo Galavis",
+        ename : "Bernardo Gal",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -111,7 +111,7 @@ const Employee =[
     },
     {
         id : "12",
-        ename : "Ariana Grande",
+        ename : "Ariana Grande1",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -121,7 +121,7 @@ const Employee =[
     },
     {
         id : "13",
-        ename : "Theon Grey",
+        ename : "Theon Gay",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -131,7 +131,7 @@ const Employee =[
     },
     {
         id : "14",
-        ename : "Ariana Grande",
+        ename : "Arde",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -211,7 +211,7 @@ const Employee =[
     },
     {
         id : "22",
-        ename : "Ariana Grande",
+        ename : "Arian",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -221,7 +221,7 @@ const Employee =[
     },
     {
         id : "23",
-        ename : "Tania Rai",
+        ename : "Tania",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -231,7 +231,7 @@ const Employee =[
     },
     {
         id : "24",
-        ename : "Bernardo Galavis",
+        ename : "Bernardo Go",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -241,7 +241,7 @@ const Employee =[
     },
     {
         id : "25",
-        ename : "Bernardo Galavis",
+        ename : "Bernardo Galavis2",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -251,7 +251,7 @@ const Employee =[
     },
     {
         id : "26",
-        ename : "Theon Grey",
+        ename : "Theon Grey1",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -261,7 +261,7 @@ const Employee =[
     },
     {
         id : "27",
-        ename : "Bernardo Galavis",
+        ename : "Ber Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -271,7 +271,7 @@ const Employee =[
     },
     {
         id : "28",
-        ename : "Ariana Grande",
+        ename : "Arande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -281,7 +281,7 @@ const Employee =[
     },
     {
         id : "29",
-        ename : "Theon Grey",
+        ename : "Thaey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -291,7 +291,7 @@ const Employee =[
     },
     {
         id : "30",
-        ename : "Ariana Grande",
+        ename : "Ariana Grae",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -311,7 +311,7 @@ const Employee =[
     },
     {
         id : "32",
-        ename : "Ruby Pen",
+        ename : "Ruen",
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -321,7 +321,7 @@ const Employee =[
     },
     {
         id : "33",
-        ename : "Tania Rai",
+        ename : "Taai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -371,7 +371,7 @@ const Employee =[
     },
     {
         id : "38",
-        ename : "Ariana Grande",
+        ename : "Aria Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -381,7 +381,7 @@ const Employee =[
     },
     {
         id : "39",
-        ename : "Tania Rai",
+        ename : "Tanai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -391,7 +391,7 @@ const Employee =[
     },
     {
         id : "40",
-        ename : "Bernardo Galavis",
+        ename : "Beravis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -401,7 +401,7 @@ const Employee =[
     },
     {
         id : "41",
-        ename : "Bernardo Galavis",
+        ename : "Berdo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -411,7 +411,7 @@ const Employee =[
     },
     {
         id: "42",
-        ename : "Bernardo Galavis",
+        ename : "Bernais",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -421,7 +421,7 @@ const Employee =[
     },
     {
         id : "43",
-        ename : "Garrett Winters",
+        ename : "Garrett",
         email : "garrettwinters@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -441,7 +441,7 @@ const Employee =[
     },
     {
         id : "45",
-        ename : "Ruby Pen",
+        ename : "Ruy Pen",
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -451,7 +451,7 @@ const Employee =[
     },
     {
         id : "46",
-        ename : "Ariana Grande",
+        ename : "Ari Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -471,7 +471,7 @@ const Employee =[
     },
     {
         id : "48",
-        ename : "Bernardo Galavis",
+        ename : "Bernar",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -481,7 +481,7 @@ const Employee =[
     },
     {
         id : "49",
-        ename : "Theon Grey",
+        ename : "Theon ",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -491,7 +491,7 @@ const Employee =[
     },
     {
         id : "50",
-        ename : "Ariana Grande",
+        ename : "Ariana Gre",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -501,7 +501,7 @@ const Employee =[
     },
     {
         id : "51",
-        ename : "Theon Grey",
+        ename : "Grey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -511,7 +511,7 @@ const Employee =[
     },
     {
         id : "52",
-        ename : "Bernardo Galavis",
+        ename : "Bdo Galavis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -521,7 +521,7 @@ const Employee =[
     },
     {
         id : "53",
-        ename : "Ariana Grande",
+        ename : "Ara Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -531,7 +531,7 @@ const Employee =[
     },
     {
         id : "54",
-        ename : "Theon Grey",
+        ename : "Theoney",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -541,7 +541,7 @@ const Employee =[
     },
     {
         id : "55",
-        ename : "Ariana Grande",
+        ename : "Arana Grnde",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -561,7 +561,7 @@ const Employee =[
     },
     {
         id : "57",
-        ename : "Ruby Pen",
+        ename : "Rubi",
         email : "Ruby.p@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -571,7 +571,7 @@ const Employee =[
     },
     {
         id : "58",
-        ename : "Tania Rai",
+        ename : "Tai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -621,7 +621,7 @@ const Employee =[
     },
     {
         id : "63",
-        ename : "Ariana Grande",
+        ename : "Ariana Grde",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -631,7 +631,7 @@ const Employee =[
     },
     {
         id : "64",
-        ename : "Tania Rai",
+        ename : "To Rai",
         email : "Tania@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -641,7 +641,7 @@ const Employee =[
     },
     {
         id : "65",
-        ename : "Bernardo Galavis",
+        ename : "Bervis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -651,7 +651,7 @@ const Employee =[
     },
     {
         id : "66",
-        ename : "Bernardo Galavis",
+        ename : "Ber Galis",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -661,7 +661,7 @@ const Employee =[
     },
     {
         id : "67",
-        ename : "Theon Grey",
+        ename : "Theo Grey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -671,7 +671,7 @@ const Employee =[
     },
     {
         id : "68",
-        ename : "Bernardo Galavis",
+        ename : "Bernar",
         email : "bernardogalavis@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -681,7 +681,7 @@ const Employee =[
     },
     {
         id : "69",
-        ename : "Ariana Grande",
+        ename : "Aria Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -691,7 +691,7 @@ const Employee =[
     },
     {
         id : "70",
-        ename : "Theon Grey",
+        ename : "Theonaey",
         email : "Grey.theon@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
@@ -701,7 +701,7 @@ const Employee =[
     },
     {
         id : "71",
-        ename : "Ariana Grande",
+        ename : "Aria Grande",
         email : "Ariana.g@piktorlabs.com",
         join : "Jan 1,2020",
         mobile: 9876543210,
