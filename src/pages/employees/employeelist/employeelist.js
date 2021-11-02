@@ -29,7 +29,11 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
     dispatch({ type: "EDIT_MANAGER", payload: empdata });
     setIsOpen(false);
   };
-
+  const removespace = (search) => {
+    setSearchTerm(search.trim()
+    .split(/ +/)
+    .join(" "));
+  }
   const empList = useSelector((state) => state.SaveReducer);
 //console.log(empList[id - 1].manager);
   return (
@@ -82,7 +86,7 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
                 type="text"
                 value={searchTerm}
                 placeholder="Search"
-                onChange={(e) => setSearchTerm(e.target.value)}
+                onChange={(e) => removespace(e.target.value)}
               ></input>
             </div>
             <div className="manager-list">

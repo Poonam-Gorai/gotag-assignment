@@ -20,13 +20,13 @@ function Employees() {
     console.log(crumb);
   };
   // pagination
-  const [currentPage, setcurrentPage] = useState(1);
+  //const [currentPage, setcurrentPage] = useState(1);
   const [visible, setVisible] = useState(10);
 
-  const pages = [];
-  for (let i = 1; i <= Math.ceil(emplist.length / visible); i++) {
-    pages.push(i);
-  }
+  // const pages = [];
+  // for (let i = 1; i <= Math.ceil(emplist.length / visible); i++) {
+  //   pages.push(i);
+  // }
 
   //search
   const [searchTerm, setSearchTerm] = useState("");
@@ -68,8 +68,8 @@ function Employees() {
   // pagination
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 10);
-    console.log(emplist.length);
-    console.log(pages);
+    //console.log(emplist.length);
+    //console.log(pages);
   };
 
   const removespace = (search) => {
