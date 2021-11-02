@@ -19,13 +19,13 @@ function Employees() {
   const selected = (crumb) => {
     console.log(crumb);
   };
-   // pagination
-   const [currentPage,setcurrentPage] = useState(1);
-   const [visible, setVisible] = useState(10);
+  // pagination
+  const [currentPage, setcurrentPage] = useState(1);
+  const [visible, setVisible] = useState(10);
 
-   const pages = [];
-   for(let i=1; i<= Math.ceil(emplist.length/visible); i++)
-   {pages.push(i);
+  const pages = [];
+  for (let i = 1; i <= Math.ceil(emplist.length / visible); i++) {
+    pages.push(i);
   }
 
   //search
@@ -64,13 +64,20 @@ function Employees() {
       setOrder("ASC");
     }
   };
- 
+
   // pagination
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 10);
-   // console.log(setVisible);
+    console.log(emplist.length);
+    console.log(pages);
   };
 
+  const removespace = (search) => {
+    setSearchTerm(search.trim()
+    .split(/ +/)
+    .join(" "));
+    console.log(search);
+  };
   return (
     <article className="emp_article">
       <BreadCrumb crumbs={crumbs} selected={selected} />
@@ -84,10 +91,12 @@ function Employees() {
           <img src={SearchIcon} alt="searchicon" className="search-icon"></img>
           <input
             type="text"
+            value={searchTerm}
             className="searchfield"
             placeholder="Search by Employee Name,email and role"
             onChange={(event) => {
-              setSearchTerm(event.target.value);
+              removespace(event.target.value);
+              //setSearchTerm(event.target.value);
             }}
           ></input>
         </div>
@@ -160,25 +169,33 @@ function Employees() {
               {emplist
                 // eslint-disable-next-line
                 .filter((val) => {
-                    if (searchTerm.trim() === "") {
-                      return val;
-                    } else if (
-                      val.ename.toLowerCase().includes(searchTerm.trim().toLowerCase())
-                    ) {
-                      return val;
-                    } else if (
-                      val.email.toLowerCase().includes(searchTerm.trim().toLowerCase())
-                    ) {
-                      return val;
-                    } else if (
-                      val.role.toLowerCase().includes(searchTerm.trim().toLowerCase())
-                    ) {
-                      return val;
-                    } else if (
-                      val.id.toLowerCase().includes(searchTerm.trim().toLowerCase())
-                    ) {
-                      return val;
-                    }
+                  if (searchTerm.trim() === "") {
+                    return val;
+                  } else if (
+                    val.ename
+                      .toLowerCase()
+                      .includes(searchTerm.trim().toLowerCase())
+                  ) {
+                    return val;
+                  } else if (
+                    val.email
+                      .toLowerCase()
+                      .includes(searchTerm.trim().toLowerCase())
+                  ) {
+                    return val;
+                  } else if (
+                    val.role
+                      .toLowerCase()
+                      .includes(searchTerm.trim().toLowerCase())
+                  ) {
+                    return val;
+                  } else if (
+                    val.id
+                      .toLowerCase()
+                      .includes(searchTerm.trim().toLowerCase())
+                  ) {
+                    return val;
+                  }
                 })
                 .slice(0, visible)
                 .map((val) => (
@@ -216,19 +233,20 @@ function Employees() {
             </tbody>
             {/* </div> */}
           </table>
-          <div className="btn-See-more">
+          {/* <div className="btn-See-more">
             <button onClick={showMoreItems} 
             disabled = {currentPage === pages[pages.length - 1] ? true : false}
             className ="btnSee">
               See more...
             </button>
-          </div>
-          {/* {emplist[40] === emplist.length && (
-          <div className="btn-See-more-none">
-            <button onClick={showMoreItems} className="btnSee">
-              See more...
-            </button>
-          </div>)} */}
+          </div> */}
+          {visible < emplist.length && (
+            <div className="btn-See-more">
+              <button onClick={showMoreItems} className="btnSee">
+                See more...
+              </button>
+            </div>
+          )}
         </TableScrollbar>
       </div>
       <footer className="footer">

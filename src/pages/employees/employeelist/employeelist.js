@@ -100,7 +100,7 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
                     } else if (
                       val.ename
                         ?.toLowerCase()
-                        .includes(searchTerm.toLowerCase())
+                        .includes(searchTerm.toLowerCase().trim())
                     ) {
                       return val;
                     }
