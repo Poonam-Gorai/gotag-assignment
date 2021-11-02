@@ -90,7 +90,7 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
               ></input>
             </div>
             <div className="manager-list">
-              <div className="list_name"key={0}>none</div>
+              <div className="list_name"key={0}onClick={() => setIsOpen(false)}>none</div>
               {empList
                 .filter((val) => {
                   if (
