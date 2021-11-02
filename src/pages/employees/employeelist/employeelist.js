@@ -18,7 +18,6 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
     console.log(e.ename)
     const empdata = {
       id: id ,
-      
       ename: ename ,
       email: email ,
       role:  role ,
@@ -50,7 +49,7 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
           <span className="display-select" onClick={() => setIsOpen(true)}>
             Select
             <span>
-              <img src={Down} className="down-icon"/>
+              <img src={Down} alt="downicon" className="down-icon"/>
             </span>
           </span>
         ) : (
@@ -60,7 +59,7 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
           >
             {empList[id-1].manager}
             <span>
-              <img src={Down}className="down-icon" />
+              <img src={Down} alt=" downicon"className="down-icon" />
             </span>
           </span>
         )}

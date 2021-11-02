@@ -160,22 +160,22 @@ function Employees() {
               {emplist
                 // eslint-disable-next-line
                 .filter((val) => {
-                    if (searchTerm === "  ") {
+                    if (searchTerm.trim() === "") {
                       return val;
                     } else if (
-                      val.ename.toLowerCase().includes(searchTerm.toLowerCase())
+                      val.ename.toLowerCase().includes(searchTerm.trim().toLowerCase())
                     ) {
                       return val;
                     } else if (
-                      val.email.toLowerCase().includes(searchTerm.toLowerCase())
+                      val.email.toLowerCase().includes(searchTerm.trim().toLowerCase())
                     ) {
                       return val;
                     } else if (
-                      val.role.toLowerCase().includes(searchTerm.toLowerCase())
+                      val.role.toLowerCase().includes(searchTerm.trim().toLowerCase())
                     ) {
                       return val;
                     } else if (
-                      val.id.toLowerCase().includes(searchTerm.toLowerCase())
+                      val.id.toLowerCase().includes(searchTerm.trim().toLowerCase())
                     ) {
                       return val;
                     }

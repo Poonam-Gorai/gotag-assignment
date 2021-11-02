@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <>
       <header>
-        <Link to="/dashboard">
+        <Link className="gologo"to="/dashboard">
         <img src={Gotag} className="logo" alt="logo"/></Link>
         <div className="wrapper-profile">
           <img src={Notify} className="notify-icon" alt="notify"/>

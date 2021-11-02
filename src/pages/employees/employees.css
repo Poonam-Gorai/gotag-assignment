@@ -105,7 +105,9 @@ thead {
   background-color: white;
   margin-top: -0.2rem;
 }
-
+thead:hover{
+  cursor: pointer;
+}
 tr {
   display: flex;
   width: 100%;
@@ -168,26 +170,26 @@ tr {
   justify-content: flex-start;
   margin-left: 2rem;
 }
-thead tr .empid-head {
+.empid-head {
   width: 10%;
 }
-thead tr .empname-head {
+.empname-head {
   width: 19%;
   text-align: left;
 }
-thead tr .emprole-head {
+.emprole-head {
   width: 15%;
   text-align: left;
 }
-thead tr .empmobile-head {
+.empmobile-head {
   width: 15.5%;
   text-align: left;
 }
-thead tr .empjoin-head {
-  width: 16%;
+.empjoin-head {
+  width: 15.5%;
   text-align: left;
 }
-thead tr .empmanager-head {
+.empmanager-head {
   width: 20%;
   text-align: left;
 }

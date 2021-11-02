@@ -57,6 +57,8 @@ ul {
 }
 .logo {
   height: 2rem;
+}
+.logo:hover{
   cursor: pointer;
 }
 a {
@@ -104,4 +106,7 @@ a {
 }
 .img-wid{
   min-width: 2.5rem;
+}
+.gologo{
+  cursor: default;
 }
