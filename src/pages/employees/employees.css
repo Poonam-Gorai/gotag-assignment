@@ -92,6 +92,7 @@
 }
 table {
   width: 100%;
+  height: 100%;
 }
 thead {
   font-size: 0.7rem;
@@ -104,6 +105,7 @@ thead {
   border-bottom: solid 3px #f3f4f8;
   background-color: white;
   margin-top: -0.2rem;
+  padding-top: 1rem;
 }
 thead:hover{
   cursor: pointer;
@@ -174,15 +176,15 @@ tr {
   width: 10%;
 }
 .empname-head {
-  width: 19%;
+  width: 18%;
   text-align: left;
 }
 .emprole-head {
-  width: 15%;
+  width: 14.5%;
   text-align: left;
 }
 .empmobile-head {
-  width: 15.5%;
+  width: 15%;
   text-align: left;
 }
 .empjoin-head {
@@ -260,6 +262,7 @@ tr {
 }
 .flex-wrapper {
   display: flex;
+  position: relative;
 }
 .manager-model-head {
   height: 2rem;
@@ -329,3 +332,36 @@ tr {
 .btn-See-more-none {
   display: none;
 }
+thead, tbody,table {
+  display: block;
+ 
+}
+thead tr {
+  display: table;
+}
+tbody tr {
+  display: table;
+}
+tbody{
+  height: calc(100% - 3rem);
+  overflow-y: scroll;
+}
+tbody::-webkit-scrollbar {
+  display: none;
+}
+/* @media screen and (max-width : 1440px) {
+  tbody{
+    height: 48vh;
+  }
+}
+
+@media screen and (max-width : 1024px) {
+  tbody{
+    height: 61vh;
+  }
+}
+@media screen and (max-width : 768px) {
+  tbody{
+    height: 71vh;
+  }
+} */

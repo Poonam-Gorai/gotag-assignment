@@ -15,7 +15,7 @@ function EmployeeList({ ename, email, role, mobile, join, image, id }) {
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
-    console.log(e.ename)
+    //console.log(e.ename)
     const empdata = {
       id: id ,
       ename: ename ,

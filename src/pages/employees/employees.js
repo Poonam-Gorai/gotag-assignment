@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
+import {useDispatch} from "react-redux"
 import "./employees.css";
 import SearchIcon from "../../assets/images/search.png";
 import data from "../../redux/store/data";
-import TableScrollbar from "react-table-scrollbar";
+//import TableScrollbar from "react-table-scrollbar";
 // import Dropdown from "./dropdown/dropdown";
 // import managers from '../../redux/store/managerlist.json';
 import EmployeeList from "./employeelist/employeelist";
@@ -161,10 +162,10 @@ function Employees() {
               </th>
             </tr>
           </thead>
-        </table>
+        {/* </table>
         {/* <div className="emp-list"> */}
-        <TableScrollbar>
-          <table>
+        {/* <TableScrollbar> */}
+          {/* <table> */}
             <tbody>
               {emplist
                 // eslint-disable-next-line
@@ -230,9 +231,9 @@ function Employees() {
                       /></td> */}
                   </tr>
                 ))}
-            </tbody>
+            
             {/* </div> */}
-          </table>
+          
           {/* <div className="btn-See-more">
             <button onClick={showMoreItems} 
             disabled = {currentPage === pages[pages.length - 1] ? true : false}
@@ -247,7 +248,9 @@ function Employees() {
               </button>
             </div>
           )}
-        </TableScrollbar>
+          </tbody>
+          </table>
+        {/* </TableScrollbar> */}
       </div>
       <footer className="footer">
         <div className="footer_btn">
